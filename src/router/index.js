@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import World from '@/components/World'
 import Panda from '@/components/Panda'
+import Person from '@/components/Person'
 
 Vue.use(Router)
 Vue.use(Hello)
@@ -25,6 +26,11 @@ export default new Router({
       path: '/panda',
       name: 'Panda',
       component: Panda
+    },
+    {
+      path: '/person',
+      name: 'Person',
+      component: Person
     }
   ]
 })

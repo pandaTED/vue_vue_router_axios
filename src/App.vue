@@ -6,6 +6,7 @@
         <router-link to="/">Hello</router-link>
         <router-link to="/world">World</router-link>
         <router-link to="/panda">Panda</router-link>
+        <router-link to="/person">Person</router-link>
       </ul>
     </div>
     <router-view></router-view>
@@ -30,6 +31,5 @@ export default {
 .router-link-active{
   color: #ff1619;
 }
-
 
 </style>
